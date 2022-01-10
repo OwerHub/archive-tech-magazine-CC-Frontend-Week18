@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.card {
+  border: 1px solid #1f48db;
+}
+
+.card:hover {
+  width: 600px;
+  font-size: 1.2em;
+  transition: all .5s;
+  box-shadow: 2px 2px 45px #2f7791;
+  
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.placeholder {
+  height: 4rem;
+}
+
+h1 {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  color: #1f48db;
+  text-shadow: 1px 1px 3px #2f7791;
+  background-color: rgb(165, 229, 241);
+  height: 1.5em; 
+}
+
+h4 {
+  color: #2f7791;
+}
+
+h4 mark {
+  padding: initial;
+  line-height: 1.4;
+  background-color: rgb(165, 229, 241);
+  color: #1f48db;
+}
+
+@media (min-width: 801px) {
+  .button {
+    display: none;
+  }
+}
